@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\mmuno\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mmuno\\.nuget\\packages"
+    ]
+  }
+}

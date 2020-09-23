@@ -41,7 +41,7 @@ namespace Interrogacion_1.Model
             SortedList_peliculas = SortedList_peliculas.OrderByDescending(o => o.Calificacion).ToList();
             for (int i = 1; i <= SortedList_peliculas.Count; i++)
             {
-                Console.WriteLine($"{i}. {SortedList_peliculas[i-1].Title} ({SortedList_peliculas[i - 1].Calificacion})"); // arreglo de peliculas, por implementar
+                Console.WriteLine($"{i}. {SortedList_peliculas[i-1].Title} ({Math.Round((double)SortedList_peliculas[i - 1].Calificacion, 2)})"); // arreglo de peliculas, por implementar
             }
         }
         public static bool Is_valid(string id_pelicula)

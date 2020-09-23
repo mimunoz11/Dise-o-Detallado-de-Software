@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Mi unidad\\Semestre 2020-2\\Diseño detallado de software\\Interrogacion_1\\Interrogacion_1\\Interrogacion_1.csproj",
+      "projectUniqueName": "C:\\Users\\mmuno\\Desktop\\Dise-o-Detallado-de-Software\\I1\\Interrogacion_1\\Interrogacion_1.csproj",
       "projectName": "Interrogacion_1",
-      "projectPath": "G:\\Mi unidad\\Semestre 2020-2\\Diseño detallado de software\\Interrogacion_1\\Interrogacion_1\\Interrogacion_1.csproj",
+      "projectPath": "C:\\Users\\mmuno\\Desktop\\Dise-o-Detallado-de-Software\\I1\\Interrogacion_1\\Interrogacion_1.csproj",
       "packagesPath": "C:\\Users\\mmuno\\.nuget\\packages\\",
-      "outputPath": "G:\\Mi unidad\\Semestre 2020-2\\Diseño detallado de software\\Interrogacion_1\\Interrogacion_1\\obj\\",
+      "outputPath": "C:\\Users\\mmuno\\Desktop\\Dise-o-Detallado-de-Software\\I1\\Interrogacion_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mmuno\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f8ktY4af6Oivr7BPuAW0f6so93vCKlkKKhyrV3FeCz0NT5gI3cfsKFR66FsA1cWLsoVLJJJ5IGmItX1irFs/jQ==",
+  "dgSpecHash": "zR2RTUKBTXdE8z9c0mMW5hhziq07UX9fBtNU4b2F5CdR5kkT+IM0sO6117mx3dpQFezNJUQx7ip0duW+OuI96Q==",
   "success": true,
-  "projectFilePath": "G:\\Mi unidad\\Semestre 2020-2\\Diseño detallado de software\\Interrogacion_1\\Interrogacion_1\\Interrogacion_1.csproj",
+  "projectFilePath": "C:\\Users\\mmuno\\Desktop\\Dise-o-Detallado-de-Software\\I1\\Interrogacion_1\\Interrogacion_1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mmuno\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

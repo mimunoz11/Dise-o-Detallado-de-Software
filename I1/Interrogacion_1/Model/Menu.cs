@@ -59,8 +59,8 @@ namespace Interrogacion_1.Model
         {
             bool continuar = true;
             while (continuar){
-                Console.WriteLine("1. Calificar \n2. Review \n3. Volver");
                 SortedList_peliculas[Convert.ToInt32(pelicula_elegida) - 1].Imprimir(Usuario);
+                Console.WriteLine("1. Calificar \n2. Review \n3. Volver");
                 string opcion = Console.ReadLine();
                 continuar = Sub_menu_opciones(opcion, pelicula_elegida);
             }

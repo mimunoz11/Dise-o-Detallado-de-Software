@@ -17,12 +17,17 @@ namespace Interrogacion_1.Model
         public string Fecha_de_estreno { get; set; }
         public void Imprimir(Usuario user)
         {
+            double? Calificacion_final = null;
+            if (Calificacion != null)
+            {
+                Calificacion_final = Math.Round((double)Calificacion, 2);
+            }
             Console.WriteLine($"{Title}\n" +
-                $"Calificación Definitiva: {(Calificacion.HasValue ? Math.Round((double) Calificacion, 2) : (double?) null)}\n" +
-                $"IMDB: {Calificacion_imdb}\n" +
-                $"Rotten Tomatoes: {Calificacion_rotten}\n" +
-                $"Metascore: {Calificacion_metacritics}\n" +
-                $"Mi Calificación: {Calificacion_usuario}\n" + //cambiar enfoque que pelicula guarde la calificacion además del usuario
+                $"Calificación Definitiva: {Calificacion_final?.ToString() ?? "n/a"}\n" +
+                $"IMDB: {Calificacion_imdb?.ToString() ?? "n/a"}\n" +
+                $"Rotten Tomatoes: {Calificacion_rotten?.ToString() ?? "n/a"}\n" +
+                $"Metascore: {Calificacion_metacritics?.ToString() ?? "n/a"}\n" +
+                $"Mi Calificación: {Calificacion_usuario?.ToString() ?? "n/a"}\n" + //cambiar enfoque que pelicula guarde la calificacion además del usuario
                 $"Descripción: {Descripcion}\n" +
                 $"Año: {Fecha_de_estreno}");
         }

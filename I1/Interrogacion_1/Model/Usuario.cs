@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Interrogacion_1.Model
 {
@@ -13,13 +11,7 @@ namespace Interrogacion_1.Model
 
         public Usuario()
         {
-            // Mi_calificacion = Convert.ToDouble(mi_calificacion);
-            Repositorios = new List<INadeje> { }; // revisar
-        }
-
-        public static void AddINadeje(INadeje inadeje)
-        {
-            Repositorios.Add(inadeje); // revisar
+            Repositorios = new List<INadeje> { };
         }
         public void Evaluar(double mi_calificacion)
         {

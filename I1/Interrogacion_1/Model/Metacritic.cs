@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Interrogacion_1.Model
 {
@@ -14,20 +13,6 @@ namespace Interrogacion_1.Model
         private double max = 100;
         public double Min { get { return min; } set { min = 1; } }
         public double Max { get { return max; } set { max = 100; } }
-        public Detalles Details { get; set; }
-        //public Metacritic(string name, double calificacion, List<string> details, double min, double max)
-        //{
-        //    Name = name;
-        //    Calificacion = calificacion;
-        //    Min = min;
-        //    Max = max;
-        //    Details = details;
-        //}
-    }
-    class Metacritic2
-    {
-        public string Name { get; set; }
-        public int Metascore { get; set; }
         public Detalles Details { get; set; }
     }
     class Detalles

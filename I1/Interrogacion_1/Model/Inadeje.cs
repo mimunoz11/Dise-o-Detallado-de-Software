@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Text;
 
 namespace Interrogacion_1.Model
 {
@@ -27,7 +24,7 @@ namespace Interrogacion_1.Model
                 $"IMDB: {Calificacion_imdb?.ToString() ?? "n/a"}\n" +
                 $"Rotten Tomatoes: {Calificacion_rotten?.ToString() ?? "n/a"}\n" +
                 $"Metascore: {Calificacion_metacritics?.ToString() ?? "n/a"}\n" +
-                $"Mi Calificación: {Calificacion_usuario?.ToString() ?? "n/a"}\n" + //cambiar enfoque que pelicula guarde la calificacion además del usuario
+                $"Mi Calificación: {Calificacion_usuario?.ToString() ?? "n/a"}\n" +
                 $"Descripción: {Descripcion}\n" +
                 $"Año: {Fecha_de_estreno}");
         }

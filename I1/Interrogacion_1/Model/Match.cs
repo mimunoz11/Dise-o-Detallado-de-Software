@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Interrogacion_1.Model
 {
@@ -8,7 +7,6 @@ namespace Interrogacion_1.Model
     {
         public List<INadeje> Match_peliculas(Critics_metacritics peliculas_metacritics, Critics_rotten peliculas_rotten, Movies_imdb peliculas_imdb)
         {
-            Console.Write("lalala"+ peliculas_metacritics.Critics[0].Calificacion);
             List<INadeje> peliculas = new List<INadeje> { };
             // HashSet
             var nombre_peliculas = new HashSet<string>();
@@ -106,5 +104,5 @@ namespace Interrogacion_1.Model
 
             return peliculas;
         }
-}
+    }
 }

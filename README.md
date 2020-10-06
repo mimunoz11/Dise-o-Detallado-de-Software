@@ -14,6 +14,8 @@ La ejecución del archivo principal se puede llevar a cabo de 2 formas:
 
 2. Con Visual Studio Code en sistema operativo Windows. Primero abrir vsc luego instalar extensión dotnet (leo-labs.dotnet), finalmente abrir una terminal en la carpeta donde se ubica **Program.cs** y correr el siguiente comando `dotnet run`
 
+Existen otras formas pero estas 2 fueron corroboradas
+
 # Descripción
 
 Se implementa una aplicación de reviews llamada Nadêje. Para su implementación se hace enfásis en la utilización de buenas prácticas, principios fundamentales y principios SOLID. En algunos de los métodos se hace omisión de la regla de 10 líneas para mantener consistencia en el objetivo del método, esta deuda técnica no es mayormente importante ya que se busca la buena implementación de todas las restricciones de la app por ejemplo: redondeos, manejo de errores, manejo de null's con "n/a", entre otros detalles destacados en issues del curso. La deuda técnica permite una mejor usabilidad y mejor lectura de las funciones.

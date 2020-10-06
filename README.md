@@ -1,6 +1,7 @@
 # I1 Diseño Detallado de Software
 
 Archivo principal: **Program.cs**
+Nombre del proyecto: **Interrogacion_1** (dentro de esta carpeta se encuentran los archivos `json` utilizados y todos los archivos `.cs`)
 
 # Lenguaje y SS.OO utilizado
 
@@ -10,7 +11,7 @@ Archivo principal: **Program.cs**
 
 La ejecución del archivo principal se puede llevar a cabo de 2 formas:
 
-1. Visual Studio en sistema operativo Windows (La forma más fácil :D)
+1. Visual Studio en sistema operativo Windows (La forma más fácil :D). Se debe abrir el archivo `Interrogacion_1.sln` para abrir todos los archivos `.cs` involucrados. Luego, se debe ejecutar el proyecto abierto en el programa VS.
 
 2. Con Visual Studio Code en sistema operativo Windows. Primero abrir vsc luego instalar extensión dotnet (leo-labs.dotnet), finalmente abrir una terminal en la carpeta donde se ubica **Program.cs** y correr el siguiente comando `dotnet run`
 

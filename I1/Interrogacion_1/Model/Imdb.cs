@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System.Collections.Generic;
 
 namespace Interrogacion_1.Model
 {
@@ -17,9 +16,5 @@ namespace Interrogacion_1.Model
         public string Summary { get; set; }
         public string Director { get; set; }
         public string Stars { get; set; }
-    }
-    class Movies_imdb
-    {
-        public List<Imdb> Movies { get; set; }
     }
 }

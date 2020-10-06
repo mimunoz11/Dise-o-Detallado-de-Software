@@ -1,6 +1,5 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 
 namespace Interrogacion_1.Model
 {
@@ -21,9 +20,5 @@ namespace Interrogacion_1.Model
         public int? Year { get { return year; } set { year = Convert.ToInt32(value); } }
         public string Starring { get; set; }
         public string Summary { get; set; }
-    }
-    class Critics_metacritics
-    {
-        public List<Metacritic> Critics { get; set; }
     }
 }

@@ -6,7 +6,6 @@ namespace Interrogacion_1.Model
         public double? Nota { get; set; }
         public double? Min { get; set; }
         public double? Max { get; set; }
-
         public Estandarizar_nota(double? nota, double? min, double? max)
         {
             Nota = nota;

@@ -6,9 +6,7 @@ namespace Interrogacion_1.Model
     {
         public double Mi_calificacion { get; set; }
         public double Mi_calificacion_estandarizada { get; set; }
-
         static public List<INadeje> Repositorios { get; set; }
-
         public Usuario()
         {
             Repositorios = new List<INadeje> { };

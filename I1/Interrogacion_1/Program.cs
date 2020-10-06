@@ -22,7 +22,7 @@ namespace Interrogacion_1
         public static List<INadeje> Inicializar_match(Critics_metacritics peliculas_metacritic, Critics_rotten peliculas_rotten, Movies_imdb peliculas_imdb)
         {
             Match match = new Match();
-            List<INadeje> peliculas = match.Match_peliculas(peliculas_metacritic, peliculas_rotten, peliculas_imdb).OrderByDescending(o => o.Calificacion).ToList();
+            List<INadeje> peliculas = match.Main_match_peliculas(peliculas_metacritic, peliculas_rotten, peliculas_imdb).OrderByDescending(o => o.Calificacion).ToList();
             return peliculas;
         }
     }

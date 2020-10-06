@@ -18,30 +18,9 @@ namespace Interrogacion_1.Model
         {
             Title = title;
             Calificacion = Calificar(imdb, metacritic, rotten);
-            if (imdb != null)
-            {
-                Calificacion_imdb = imdb.Calificacion;
-            }
-            else
-            {
-                Calificacion_imdb = null;
-            }
-            if (rotten != null)
-            {
-                Calificacion_rotten = rotten.Calificacion;
-            }
-            else
-            {
-                Calificacion_rotten = null;
-            }
-            if (metacritic != null)
-            {
-                Calificacion_metacritics = metacritic.Calificacion;
-            }
-            else
-            {
-                Calificacion_metacritics = null;
-            }
+            Setear_calificacion_imdb(imdb);
+            Setear_calificacion_rotten(rotten);
+            Setear_calificacion_metacritics(metacritic);
             Calificacion_usuario = null;
             Descripcion = Asignar_descripcion(imdb, metacritic, rotten);
             Fecha_de_estreno = Asignar_fecha(imdb, metacritic);
@@ -101,7 +80,7 @@ namespace Interrogacion_1.Model
         }
         public static int Busco_menor_descripcion(Imdb imdb, Metacritic metacritics, Rotten rotten)
         {
-            int largo_descripcion_imdb = 0;
+            int largo_descripcion_imdb;
             if (imdb != null)
             {
                 largo_descripcion_imdb = imdb.Summary.Length;
@@ -110,8 +89,7 @@ namespace Interrogacion_1.Model
             {
                 largo_descripcion_imdb = V;
             }
-            // int largo_descripcion_imdb = imdb.Summary.Length;
-            int largo_descripcion_roten = 0;
+            int largo_descripcion_roten;
             if (rotten != null)
             {
                 largo_descripcion_roten = rotten.Critics_consensus.Length;
@@ -120,8 +98,7 @@ namespace Interrogacion_1.Model
             {
                 largo_descripcion_roten = V;
             }
-            // int largo_descripcion_roten = rotten.Critics_consensus.Length;
-            int largo_descripcion_metacritics = 0;
+            int largo_descripcion_metacritics;
             if (metacritics != null)
             {
                 largo_descripcion_metacritics = metacritics.Details.Summary.Length;
@@ -130,7 +107,6 @@ namespace Interrogacion_1.Model
             {
                 largo_descripcion_metacritics = V;
             }
-            // int largo_descripcion_metacritics = metacritics.Details.Summary.Length;
             int[] array_largo_descripciones = new int[] { largo_descripcion_imdb, largo_descripcion_roten, largo_descripcion_metacritics };
             int menor = array_largo_descripciones.Min();
             return menor;
@@ -148,6 +124,39 @@ namespace Interrogacion_1.Model
             else
             {
                 return null;
+            }
+        }
+        public void Setear_calificacion_imdb(Imdb imdb)
+        {
+            if (imdb != null)
+            {
+                Calificacion_imdb = imdb.Calificacion;
+            }
+            else
+            {
+                Calificacion_imdb = null;
+            }
+        }
+        public void Setear_calificacion_rotten(Rotten rotten)
+        {
+            if (rotten != null)
+            {
+                Calificacion_rotten = rotten.Calificacion;
+            }
+            else
+            {
+                Calificacion_rotten = null;
+            }
+        }
+        public void Setear_calificacion_metacritics(Metacritic metacritic)
+        {
+            if (metacritic != null)
+            {
+                Calificacion_metacritics = metacritic.Calificacion;
+            }
+            else
+            {
+                Calificacion_metacritics = null;
             }
         }
     }

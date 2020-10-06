@@ -99,7 +99,6 @@ namespace Interrogacion_1.Model
             {
                 if (calificacion == i.ToString())
                 {
-                    // Console.WriteLine(i);
                     return true;
                 }
             }

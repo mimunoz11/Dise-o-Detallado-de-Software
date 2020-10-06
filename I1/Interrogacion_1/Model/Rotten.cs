@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System.Collections.Generic;
 
 namespace Interrogacion_1.Model
 {
@@ -15,9 +14,5 @@ namespace Interrogacion_1.Model
         private double max = 100;
         public double Min { get { return min; } set { min = 1; } }
         public double Max { get { return max; } set { max = 100; } }
-    }
-    class Critics_rotten
-    {
-        public List<Rotten> Critics { get; set; }
     }
 }

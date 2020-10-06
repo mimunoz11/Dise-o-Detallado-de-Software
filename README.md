@@ -2,9 +2,17 @@
 
 Archivo principal: **Program.cs**
 
-# Lenguaje utilizado
+# Lenguaje y SS.OO utilizado
 
-**C#**
+**C#** y **Windows 10**
+
+# Ejecución de Program.cs
+
+La ejecución del archivo principal se puede llevar a cabo de 2 formas:
+
+1. Visual Studio en sistema operativo Windows (La forma más fácil :D)
+
+2. Con Visual Studio Code en sistema operativo Windows. Primero abrir vsc luego instalar extensión dotnet (leo-labs.dotnet), finalmente abrir una terminal en la carpeta donde se ubica **Program.cs** y correr el siguiente comando `dotnet run`
 
 # Descripción
 
